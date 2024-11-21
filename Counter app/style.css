@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url("img/counterbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  text-shadow: 1px 1px 5px #000;
+}
+
+.container {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+#count-el {
+  font-size: 50px;
+  margin: 20px 0;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+  font-weight: bold;
+  width: 200px;
+  margin: 10px 10px;
+  border-radius: 5px;
+}
+
+#increment-btn,
+#decrement-btn {
+  background: darkred;
+}
+
+#increment-btn:hover,
+#decrement-btn:hover {
+  color: darkred;
+  background-color: white;
+  transform: scale(1.1);
+}
+
+#reset-btn {
+  background: darkblue;
+}
+
+#reset-btn:hover {
+  color: darkblue;
+  background-color: white;
+  transform: scale(1.1);
+}
+
+#save-btn {
+  background: darkgreen;
+}
+
+#save-btn:hover {
+  color: darkgreen;
+  background-color: #fff;
+  transform: scale(1.1);
+}
+
+#save-el {
+  margin-top: 20px;
+  font-size: 20px;
+  text-shadow: none;
+  color: #ccc;
+}
